@@ -29,12 +29,4 @@ Currently, I work as a Security Tester at 9ine Consulting.
 
 ### Wanna hire or collab?
 
-<a href="../assets/Karan-Chaudhary-Resume.pdf" class="btn btn-primary" target="_blank">Download My Resume (PDF)</a>
-
----
-
-### Get in Touch
-
-If you’d like to collaborate / hire me / or just wanna say hi:  
-📧 [0xKaranChaudhary@gmail.com](mailto:0xKaranChaudhary@gmail.com) (first char is Zero not 😮)  
-🔗 [LinkedIn](https://www.linkedin.com/in/0xkaran) | [Twitter/X](https://x.com/0xkaran) | [GitHub](https://github.com/0xKaran)
+<a href="../assets/Karan-Chaudhary-Resume.pdf" class="btn btn-primary" target="_blank">View/Download My Resume</a>

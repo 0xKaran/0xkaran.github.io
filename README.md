@@ -1,43 +1,93 @@
-# Chirpy Starter
+# 🚀 Personal Portfolio with Chirpy Starter
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+This guide walks you through setting up a personal portfolio using the [Chirpy Starter](https://github.com/cotes2020/chirpy-starter) Jekyll theme. Follow these instructions to modify the repository, customize your site, and deploy it to GitHub Pages.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+### Notes
+> Don't run ```JEKYLL_ENV=production bundle exec jekyll b``` because it will create static HTML website in ```_sites``` folder instead just keep publishing ```.md``` files and let github build the changes.
+{: .prompt-tip }
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## 🎥 Video Tutorial
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+Watch the full tutorial on YouTube:
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+[![Watch the tutorial](https://img.youtube.com/vi/F8iOU1ci19Q/0.jpg)](https://youtu.be/F8iOU1ci19Q?si=3viR8oxF4gQo6cA_)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/cotes2020/chirpy-starter
+mv chirpy-starter portfolio
+cd portfolio
+sudo bundle           # Installs all required dependencies
+bundle exec jekyll s  # Starts the local Jekyll server
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Once the server is up and running, access your site locally at:
+http://127.0.0.1:4000/
 
-## Usage
+### Modify Your Site
+Edit _config.yml to update your site’s global settings such as:
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+    Site title
+    Tagline
+    Author info
+    Social links
 
-## Contributing
+### Set Up GitHub Pages
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+Remove Existing Git History (If Present)
+```bash
+rm -rf .git
+```
 
-## License
+### Create a New GitHub Repository
 
-This work is published under [MIT][mit] License.
+Create a new GitHub repository with no files (not even a README.md).
+Repo name: <username>.github.io (replace <username> with your GitHub username)
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Initialize Git and Connect to Your Repository
+```bash
+git init
+git remote add origin https://github.com/0xKaran/0xkaran.github.io
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+### Publish Changes
+Check git status:
+
+```bash
+git status
+```
+
+Stage changes:
+
+```bash
+git add .
+```
+
+Commit changes:
+
+```bash
+git commit -m "any message"
+```
+
+Push changes to GitHub:
+
+```bash
+git push
+```
+
+Oneliner
+```bash
+git status; git add .; git commit -m "."; git push 
+```
+
+### Notes
+- Wait for github build to see changes
+- Don't run ```JEKYLL_ENV=production bundle exec jekyll b``` because it will create static HTML website in ```_sites``` folder instead just keep publishing ```.md``` files and let github build the changes.
