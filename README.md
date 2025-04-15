@@ -4,7 +4,6 @@ This guide walks you through setting up a personal portfolio using the [Chirpy S
 
 ### Notes
 > Don't run ```JEKYLL_ENV=production bundle exec jekyll b``` because it will create static HTML website in ```_sites``` folder instead just keep publishing ```.md``` files and let github build the changes.
-{: .prompt-tip }
 
 ## 🎥 Video Tutorial
 
@@ -36,6 +35,11 @@ Edit _config.yml to update your site’s global settings such as:
     Tagline
     Author info
     Social links
+
+### Run locally
+```bash
+bundle exec jekyll s
+```
 
 ### Set Up GitHub Pages
 
@@ -88,6 +92,7 @@ Oneliner
 git status; git add .; git commit -m "."; git push 
 ```
 
-### Notes
+## Notes
 - Wait for github build to see changes
 - Don't run ```JEKYLL_ENV=production bundle exec jekyll b``` because it will create static HTML website in ```_sites``` folder instead just keep publishing ```.md``` files and let github build the changes.
+- If you wanna host static website in own website using a hosting provider then we can use above feature.
