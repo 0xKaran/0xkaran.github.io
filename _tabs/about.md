@@ -27,7 +27,7 @@ Currently, I work as a Security Tester at 9ine Consulting.
 
 ---
 
-### Download My Resume
+### Wanna hire or collab?
 
 <a href="../assets/Karan-Chaudhary-Resume.pdf" class="btn btn-primary" target="_blank">Download My Resume (PDF)</a>
 
