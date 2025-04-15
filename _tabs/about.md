@@ -29,7 +29,7 @@ Currently, I work as a Security Tester at 9ine Consulting.
 
 ### Download My Resume
 
-[Preview/Download (PDF)](/Karan Chaudhary-Pentester-CV.pdf)
+<a href="../assets/Karan-Chaudhary-Resume.pdf" class="btn btn-primary" target="_blank">Download My Resume (PDF)</a>
 
 ---
 
