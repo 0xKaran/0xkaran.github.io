@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 Hi 👋 I’m **Karan Chaudhary**, a self-taught ethical hacker and penetration tester with over **6 years** of experience in cybersecurity, including **3.5 years in the corporate** sector. I have hands-on expertise in **web, API, and network security**, and I’m actively expanding my skills in **red teaming, mobile application testing, and cloud security**.
