@@ -92,8 +92,3 @@ In the upcoming series, we'll be convering below points.
 - **Image Analysis**: Reverse image search, geolocation via EXIF
 
 - **Leak Detection**: Public DBs, breach directories
-
----
-
-> Further Reading: [EP02: Modern OSINT Techniques - Search Engines](https://0xkaran.github.io/posts/osint-search-engines)
-{: .prompt-tip }

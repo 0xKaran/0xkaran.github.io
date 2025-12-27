@@ -86,9 +86,10 @@ Leaked databases are distributed on:
 - Breach marketplaces / search engines
 
 **Known search engines**
-- <a href="https://haveibeenpwned.com" target="_blank" rel="noopener noreferrer">HaveIBeenPwned</a>  – breach presence check  
+- <a href="https://haveibeenpwned.com" target="_blank" rel="noopener noreferrer">HaveIBeenPwned</a> 
 - <a href="https://dehashed.com" target="_blank" rel="noopener noreferrer">Dehashed</a> 
 - <a href="https://intelx.io" target="_blank" rel="noopener noreferrer">IntelligenceX</a>
+- <a href="https://leakpeek.com" target="_blank" rel="noopener noreferrer">LeakPeak</a>
 - <a href="https://snusbase.com" target="_blank" rel="noopener noreferrer">Snusbase</a>
 
 Cloud hosted search engines are efficient but costly, you can also download the databases locally for forever with below requirements but remember leaked databases often contain malware. They should be opened only in isolated environments (VMware / VirtualBox).
@@ -115,6 +116,6 @@ If these indexes does not work, you can also search on google by including `magn
 
 #### 🦺 Initial Recon Workflow
 
-1. Start with **HaveIBeenPwned** to check if the target data exists in breaches.
+1. Start with **HaveIBeenPwned** or **Leakpeak** or  **Dehashed** to check if the target data exists in breaches.
 2. Identify which databases contain relevant information.
 3. Download only necessary dumps for deeper investigation.
