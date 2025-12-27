@@ -31,7 +31,7 @@ Use advanced operators to filter noise and surface only relevant intelligence.
 - `Amit Raj -"Bharti Airtel" -site:linkedin.com` - Exclude irrelevant results
 - `site:xyz.com "Amit Raj"` - Info on specific website
 - `site:<portfolio.target> filetype:pdf` - PDF files from a website
-- `site:instagram.com` \@<\username>` - User comments
+- `site:instagram.com @user.name` - User comments
 
 #### 📂 Multi-Filetype Intelligence Search
 Use wide filetype combinations to locate leaked, archived, or sensitive documents:
