@@ -1,7 +1,7 @@
 ---
 categories: ['OSINT']
 tags: ['OSINT', 'Passwords', 'Social Media', 'Search Engine']
-title: 'EP01: Modern OSINT Techniques - Overview'
+title: 'OSINT EP01: Modern OSINT Techniques Overview'
 description:  OSINT tutorial covering people investigation via social media (Instagram, Facebook, LinkedIn, Twitter), methods to find leaked PIIs like passwords, and sensitive data using various search engines and reverse image search techniques etc.
 ---
 

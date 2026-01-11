@@ -1,7 +1,7 @@
 ---
 categories: ['OSINT']
 tags: ['OSINT']
-title: 'EP02: Modern OSINT Techniques – Search Engines'
+title: 'OSINT EP02: Search Engines'
 description: OSINT tutorial to use search engines and advanced search operators to find publicly exposed people data, company assets, documents, infrastructure, and forgotten digital footprints, and how to systematically gather useful intelligence from information already indexed on the internet.
 ---
 ----

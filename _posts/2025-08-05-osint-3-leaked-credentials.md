@@ -1,5 +1,5 @@
 ---
-title: "EP03: Modern OSINT Techniques – Leaked Credentials & Personal Data Investigation"
+title: "OSINT EP03: Leaked Credentials & Personal Data Investigation"
 categories: ['OSINT']
 tags: ['OSINT', 'Data Breach', 'Leaks']
 description: OSINT tutorial on understanding, locating, and analyzing leaked personal data from public and underground breach sources.
