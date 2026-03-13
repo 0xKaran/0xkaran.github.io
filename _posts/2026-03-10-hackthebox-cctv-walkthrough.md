@@ -7,17 +7,18 @@ description:  Guide to compromising the HTB CCTV (Easy) machine covering initial
 
 <img src="/assets/images/post/htb/cctv/1.png" alt="hackthebox cctv article by 0xKaran" style="display:block;margin:auto;width:70%;">
 
-### Table Of Contents
-- Summary
-- Recon
-- Initial Access
-- User Access
-- Privilege Escalation
+## 0. Table Of Contents
+1. Summary
+2. Recon
+3. Initial Access
+4. User Access
+5. Privilege Escalation To Root Access
 
-> CCTV is easy rated Linux machine on HackTheBox that demonstrates critical vulnerabilities in outdated
-{: .prompt-info }
+## 1. Summary
+CCTV is an easy-rated Linux machine on HackTheBox that showcases critical flaws in outdated CCTV management softwares.
+Initial access is gained by exploiting an SQL injection to dump password hashes, followed by privilege escalation through an RCE CVE in another identified service to obtain a root shell.
 
-### Recon
+## 2. Recon
 ```bash
 ┌──(karan㉿kali)-[~/Desktop/htb/cctv]
 └─$ nmap -A -oN nmap.txt 10.129.174.233
@@ -43,7 +44,15 @@ Network Distance: 2 hops
 Service Info: Host: default; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
+To access the website on browser, add `cctv.htb` in hosts file
 
 ```bash
-sudo echo 10.129.174.233 >> /etc/hosts
+sudo nano /etc/hosts
+10.129.174.233  cctv.htb
 ```
+
+> <b>Active HackTheBox Challenge</b><br><br>
+This challenge is currently active on HackTheBox. As per [HTB’s content policy](https://help.hackthebox.com/en/articles/5188925-streaming-writeups-walkthrough-guidelines){:target="_blank"}, writeups for active machines are not allowed.
+This writeup will be published publicly once the machine is retired.<br><br>
+💡 For hints or guidance, you can reach out to me on any social media profiles.
+{: .prompt-danger }

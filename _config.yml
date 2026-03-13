@@ -16,7 +16,7 @@ timezone: Asia/Kolkata
 
 title: Karan Chaudhary # the main title
 
-tagline: Offensive Security # it will display as the subtitle
+tagline: AI & Offensive Security # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Collection of my research, write-ups, and discoveries in bug bounties, CVEs, red teaming, and all cybersecurity things.
@@ -38,11 +38,11 @@ social:
   email: 0xKaranChaudhary@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/0xkaran # change to your Twitter homepage
+    - https://www.linkedin.com/in/0xkaran # change to your LinkedIn homepage
     - https://github.com/0xkaran # change to your GitHub homepage
     # Uncomment below to add more social links
+    - https://x.com/0xkaran # change to your X homepage
     - https://www.instagram.com/0xkaran_
-    - https://www.linkedin.com/in/0xkaran
 
 # Site Verification Settings
 webmaster_verifications:
